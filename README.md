@@ -1,15 +1,15 @@
 
 ![Static Badge](https://img.shields.io/badge/MIT-green)
 
-# Test
+# README Generator
 
 ## Description
 
-- **Motivation**: test
-- **Why build This Project**: test
-- **What problem's did it solve**: test
-- **Lesson's Learned**: test
-- **What makes your project stand-out**: test
+- **Motivation**: wanting to implement my newly learned node.js cli and how to use its packages knowledge to automate the process of creating readme files for my project
+- **Why build This Project**: Reducing the time create readme files from scratch by simply asnwering project related questions made the process of working on projects steamlined
+- **What problem's did it solve**: Having an automated readme generator saves time on generating readme files
+- **Lesson's Learned**: i learned node.js cli and the packages that i used in this project
+- **What makes your project stand-out**: Professionally structred and use of badges makes it stand out
 
 ## Table of Contents
 
@@ -19,25 +19,25 @@
 - [License](#license)
 
 ## Installation
-test
+this project is not a package at the moment
 
 ## Usage
-test
+there will be a guide to installation in the future
 
 ## Credits
-test
+shields.io, github.io, inquirer
 
 ## License
 A short and simple permissive license with conditions only requiring preservation of copyright and license notices. Licensed works, modifications, and larger works may be distributed under different terms and without source code. https://choosealicense.com/licenses/mit/
 
 ## Features
-test
+no future add-ons planned
 
 ## How to Contribute
-test
+contact me
 
 ## Tests
-test
+no test available
 
 ## Questions
 - For Further Questions and Bug reports Please reach out to me at
