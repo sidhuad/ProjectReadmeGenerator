@@ -37,11 +37,12 @@ function writeToFile(data) {
         license = `A license with no conditions whatsoever which dedicates works to the public domain. Unlicensed works, modifications, and larger works may be distributed under different terms and without source code. https://choosealicense.com/licenses/unlicense/`
     }
 
+    const licenseBagde = ques10.replace(/\s+/g,'%20');
 
     const readmeTemplate = `
 # ${ques1}
 
-![Static Badge](https://img.shields.io/badge/License-${ques10}-green)
+![Static Badge](https://img.shields.io/badge/License-${licenseBagde}-green)
 
 ## Description
 
