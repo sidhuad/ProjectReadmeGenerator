@@ -1,15 +1,15 @@
 
-# Test
+# README Generator
 
 ![Static Badge](https://img.shields.io/badge/License-MIT-green)
 
 ## Description
 
-- **Motivation**: tets
-- **Why build This Project**: test
-- **What problem's did it solve**: test
-- **Lesson's Learned**: test
-- **What makes your project stand-out**: test
+- **Motivation**: My motivation was to implement the knowledge i gained learning about node.js and its command line interface
+- **Why build This Project**: Writitng Readme files for projects from scratch takes a lot of time, time that can be devoted to the developement of the project 
+- **What problem's did it solve**: This project shortens the process by asking user questions related to their project and injecting  them into the pre-defined tempelate
+- **Lesson's Learned**: Use of node.js cli, how npm commands work and how node packages can be used to further develop the project
+- **What makes your project stand-out**: Carefully designed and thorough Questions help user to better describe their project thus helping in maintaining professional structure of README files
 
 ## Table of Contents
 
@@ -24,30 +24,28 @@
 
 ## Installation
 ```
-test
+npm install -y for node, npm i inquirer for inquirer
 ```
 
 ## Usage
-test
+node index.js to run the project while in the source directory
 
 ## Credits
-test
+inquirer node package for user input, shields.io for badges, github.io for readme template
 
 ## License
 A short and simple permissive license with conditions only requiring preservation of copyright and license notices. Licensed works, modifications, and larger works may be distributed under different terms and without source code. https://choosealicense.com/licenses/mit/
 
 ## Features
-test
+More options for license's and badges will be added in the future update
 
 ## How to Contribute
-test
+Anyone interested can contact me via email or github
 
 ## Tests
 ```
-test
+npm run test 
 ```
 
 ## Questions
-- For Further Questions and Bug reports Please reach out to me at
-- ![Static Badge](https://img.shields.io/badge/Github-green) [![Static Badge](https://img.shields.io/badge/test-blue)](https://github.com/test)
-- ![Static Badge](https://img.shields.io/badge/Email-purple) test
+- For Further Questions and Bug reports Please reach out to me at Github [sidhuad](https://github.com/sidhuad) or email me at adarshsidhu83@gmail.com

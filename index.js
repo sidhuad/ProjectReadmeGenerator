@@ -88,10 +88,7 @@ ${ques13}
 \`\`\`
 
 ## Questions
-- For Further Questions and Bug reports Please reach out to me at
-- ![Static Badge](https://img.shields.io/badge/Github-green) [![Static Badge](https://img.shields.io/badge/${ques14}-blue)](https://github.com/${ques14})
-- ![Static Badge](https://img.shields.io/badge/Email-purple) ${ques15}
-`;
+- For Further Questions and Bug reports Please reach out to me at Github [${ques14}](https://github.com/${ques14}) or email me at ${ques15}`;
 
     fs.writeFile('./output/README.md',readmeTemplate,(err) => {
         err ? console.error(err) : console.log(`README.md file Created !`);
