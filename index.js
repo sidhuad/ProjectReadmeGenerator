@@ -39,9 +39,9 @@ function writeToFile(data) {
 
 
     const readmeTemplate = `
-![Static Badge](https://img.shields.io/badge/${ques10}-green)
-
 # ${ques1}
+
+![Static Badge](https://img.shields.io/badge/License-${ques10}-green)
 
 ## Description
 
@@ -57,9 +57,15 @@ function writeToFile(data) {
 - [Usage](#usage)
 - [Credits](#credits)
 - [License](#license)
+- [Features](#features)
+- [How to Contribute](#how-to-contribute)
+- [Tests](#tests)
+- [Questions](#questions)
 
 ## Installation
+\`\`\`
 ${ques7}
+\`\`\`
 
 ## Usage
 ${ques8}
@@ -77,7 +83,9 @@ ${ques11}
 ${ques12}
 
 ## Tests
+\`\`\`
 ${ques13}
+\`\`\`
 
 ## Questions
 - For Further Questions and Bug reports Please reach out to me at
@@ -85,7 +93,7 @@ ${ques13}
 - ![Static Badge](https://img.shields.io/badge/Email-purple) ${ques15}
 `;
 
-    fs.writeFile('README.md',readmeTemplate,(err) => {
+    fs.writeFile('./output/README.md',readmeTemplate,(err) => {
         err ? console.error(err) : console.log(`README.md file Created !`);
     })
 }
